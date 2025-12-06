@@ -43,27 +43,27 @@ Cyber Defense HQ is a PHP-based web application that provides secure user authen
 ```
 /
 ├── api/
-│   ├── login.php          # Login endpoint
-│   ├── signup.php         # Registration endpoint
-│   ├── get_user.php       # User data retrieval
-│   └── logout.php         # Logout endpoint
+│   ├── login.php          
+│   ├── signup.php       
+│   ├── get_user.php      
+│   └── logout.php        
 ├── assets/
 │   ├── css/
-│   │   ├── root.css       # Global styles
-│   │   ├── style.css      # Login page styles
-│   │   └── dashboard.css  # Dashboard styles
+│   │   ├── root.css       
+│   │   ├── style.css      
+│   │   └── dashboard.css  
 │   └── js/
-│       ├── login.js       # Login/signup logic
-│       └── dashboard.js   # Dashboard functionality
+│       ├── login.js       
+│       └── dashboard.js  
 ├── template/
-│   ├── login.html         # Login page template
-│   └── dashboard.html     # Dashboard template
-├── config.php             # Configuration settings
-├── database.php           # Database initialization
-├── index.php              # Main router
-├── .htaccess              # Apache configuration
-├── .gitignore             # Git ignore rules
-└── cyber_defense.db       # SQLite database
+│   ├── login.html       
+│   └── dashboard.html    
+├── config.php            
+├── database.php        
+├── index.php       
+├── .htaccess             
+├── .gitignore          
+└── cyber_defense.db      
 ```
 
 ## Installation
