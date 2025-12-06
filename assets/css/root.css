@@ -1,0 +1,45 @@
+:root {
+    --color-primary: #00d9ff;
+    --color-secondary: #8a2be2;
+    --color-accent: #ff3366;
+    --color-success: #00ff88;
+    --color-success-light: #00ffcc;
+    --color-warning: #ffaa00;
+    --color-warning-light: #ffcc00;
+    --color-error: #ff3366;
+    --color-error-light: #ff6699;
+    
+    --bg-dark-primary: #0a0e27;
+    --bg-dark-secondary: #1a1f3a;
+    --bg-dark-tertiary: #0f1419;
+    --bg-card: rgba(10, 14, 39, 0.95);
+    --bg-card-alt: rgba(10, 14, 39, 0.98);
+    --bg-input: rgba(26, 31, 58, 0.9);
+    --bg-input-focus: rgba(26, 31, 58, 1);
+    
+    --text-primary: #fff;
+    --text-secondary: rgba(255, 255, 255, 0.8);
+    --text-tertiary: rgba(255, 255, 255, 0.7);
+    --text-muted: rgba(255, 255, 255, 0.6);
+    --text-placeholder: rgba(255, 255, 255, 0.4);
+    
+    --border-primary: #00d9ff;
+    --border-secondary: rgba(0, 217, 255, 0.4);
+    --border-tertiary: rgba(0, 217, 255, 0.3);
+    --border-subtle: rgba(0, 217, 255, 0.2);
+    
+    --shadow-primary: 0 0 50px rgba(0, 217, 255, 0.5);
+    --shadow-secondary: 0 0 100px rgba(138, 43, 226, 0.3);
+    --shadow-inset: inset 0 0 40px rgba(0, 217, 255, 0.08);
+    
+    --gradient-primary: linear-gradient(135deg, #00d9ff, #8a2be2);
+    --gradient-secondary: linear-gradient(135deg, #ff3366, #8a2be2);
+    --gradient-bg: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 50%, #0f1419 100%);
+    --gradient-card: linear-gradient(135deg, rgba(0, 217, 255, 0.15), rgba(138, 43, 226, 0.15));
+    --gradient-badge: linear-gradient(135deg, rgba(0, 217, 255, 0.25), rgba(138, 43, 226, 0.25));
+    --gradient-overlay: linear-gradient(135deg, rgba(0, 217, 255, 0.1), rgba(138, 43, 226, 0.1));
+    --gradient-overlay-card: linear-gradient(135deg, rgba(0, 217, 255, 0.2), rgba(138, 43, 226, 0.2));
+    
+    --radial-gradient-1: radial-gradient(circle at 20% 50%, rgba(0, 217, 255, 0.1) 0%, transparent 50%);
+    --radial-gradient-2: radial-gradient(circle at 80% 50%, rgba(138, 43, 226, 0.1) 0%, transparent 50%);
+}

@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYBER DEFENSE - Classified Intelligence Hub</title>
+    <link rel="stylesheet" href="/assets/css/root.css">
+    <link rel="stylesheet" href="/assets/css/dashboard.css">
+</head>
+<body>
+    <div class="animated-bg"></div>
+
+    <div class="header">
+        <div class="logo-section">
+            <div class="logo">
+                <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M256 48c-48.6 0-93.4 16.9-128.9 45.1C89.8 70.7 64.3 64 64 64c-13.3 0-24 10.7-24 24 0 .3 6.7 25.8 29.1 63.1C40.9 186.6 24 231.4 24 280c0 114.9 93.1 208 208 208s208-93.1 208-208c0-48.6-16.9-93.4-45.1-128.9C417.3 113.8 424 88.3 424 88c0-13.3-10.7-24-24-24-.3 0-25.8 6.7-63.1 29.1C301.4 64.9 256.6 48 256 48zm0 80c17.7 0 32 14.3 32 32s-14.3 32-32 32-32-14.3-32-32 14.3-32 32-32zm-64 96c17.7 0 32 14.3 32 32s-14.3 32-32 32-32-14.3-32-32 14.3-32 32-32zm128 0c17.7 0 32 14.3 32 32s-14.3 32-32 32-32-14.3-32-32 14.3-32 32-32zM256 336c-44.2 0-80 35.8-80 80h160c0-44.2-35.8-80-80-80z"/>
+                </svg>
+            </div>
+            <div class="site-title">Cyber Defense HQ</div>
+        </div>
+        <div class="user-info">
+            <div class="user-badge">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="display: inline-block; vertical-align: middle; margin-right: 5px;">
+                    <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/>
+                </svg>
+                <span id="username">Agent Alpha</span>
+            </div>
+            <button class="logout-btn" id="logoutBtn">Logout</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="welcome-banner">
+            <h1>
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" style="display: inline-block; vertical-align: middle; margin-right: 10px;">
+                    <path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/>
+                </svg>
+                CLASSIFIED ACCESS GRANTED
+            </h1>
+            <p>Welcome to the Cyber Defense Intelligence Hub - Top Secret Clearance Level</p>
+        </div>
+
+        <div class="stats-bar">
+            <div class="stat-card">
+                <div class="stat-number">247</div>
+                <div class="stat-label">Active Threats</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">1,849</div>
+                <div class="stat-label">Intelligence Reports</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">99.7%</div>
+                <div class="stat-label">Defense Success Rate</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">24/7</div>
+                <div class="stat-label">Monitoring Active</div>
+            </div>
+        </div>
+
+        <div class="section-header">
+            <span class="section-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+                </svg>
+            </span>
+            <h2>Latest Intelligence Blogs</h2>
+        </div>
+
+        <div class="cards-grid">
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="card-title">How to setup ELK in your home</div>
+                        <div class="card-meta">
+                            <span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="display: inline-block; vertical-align: middle; margin-right: 3px;">
+                                    <path d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"/>
+                                </svg>
+                                Dec 4, 2025
+                            </span>
+                            <span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="display: inline-block; vertical-align: middle; margin-right: 3px;">
+                                    <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                                </svg>
+                                Agent Hidden
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card-badge">CRITICAL</div>
+                </div>
+                <div class="card-description">
+                   ELK SIEM Setup Guide - Ubuntu Server with Windows Endpoint
+                </div>
+                <div class="card-footer">
+                    <a href="https://artifacts.qayssarayra.com/cyberbuild/ELK-HOME" target="_blank" class="read-more">Read Full Report →</a>
+                    <div class="threat-level">
+                        <div class="threat-dot active high"></div>
+                        <div class="threat-dot active high"></div>
+                        <div class="threat-dot active high"></div>
+                        <div class="threat-dot active high"></div>
+                        <div class="threat-dot active high"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="card-title">Cybersecurity standards in formula 1</div>
+                        <div class="card-meta">
+                            <span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="display: inline-block; vertical-align: middle; margin-right: 3px;">
+                                    <path d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"/>
+                                </svg>
+                                Dec 3, 2025
+                            </span>
+                            <span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="display: inline-block; vertical-align: middle; margin-right: 3px;">
+                                    <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                                </svg>
+                                Dr. 3adawi
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card-badge">HIGH</div>
+                </div>
+                <div class="card-description">
+                    Cybersecurity in Formula 1: How F1 Teams Protect Telemetry & Strategy (2025)
+                </div>
+                <div class="card-footer">
+                    <a href="https://microhackers.ai/cybersecurity/cybersecurity-in-formula-1/" target="_blank" class="read-more">Read Full Report →</a>
+                    <div class="threat-level">
+                        <div class="threat-dot active high"></div>
+                        <div class="threat-dot active high"></div>
+                        <div class="threat-dot active high"></div>
+                        <div class="threat-dot active high"></div>
+                        <div class="threat-dot"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="card-title">Ransomware Campaign Analysis</div>
+                        <div class="card-meta">
+                            <span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="display: inline-block; vertical-align: middle; margin-right: 3px;">
+                                    <path d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"/>
+                                </svg>
+                                Dec 2, 2025
+                            </span>
+                            <span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="display: inline-block; vertical-align: middle; margin-right: 3px;">
+                                    <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                                </svg>
+                                Agent Mst0A
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card-badge">HIGH</div>
+                </div>
+                <div class="card-description">
+                    Hide Your RDP: Password Spray Leads to RansomHub Deployment
+
+                </div>
+                <div class="card-footer">
+                    <a href="https://thedfirreport.com/2025/06/30/hide-your-rdp-password-spray-leads-to-ransomhub-deployment/" target="_blank" class="read-more">Read Full Report →</a>
+                    <div class="threat-level">
+                        <div class="threat-dot active high"></div>
+                        <div class="threat-dot active high"></div>
+                        <div class="threat-dot active high"></div>
+                        <div class="threat-dot active high"></div>
+                        <div class="threat-dot"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="card-title">Quantum Cryptography Breakthrough</div>
+                        <div class="card-meta">
+                            <span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="display: inline-block; vertical-align: middle; margin-right: 3px;">
+                                    <path d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"/>
+                                </svg>
+                                Dec 1, 2025
+                            </span>
+                            <span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="display: inline-block; vertical-align: middle; margin-right: 3px;">
+                                    <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                                </svg>
+                                Agent holmes
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card-badge">MEDIUM</div>
+                </div>
+                <div class="card-description">
+                    Our research division has successfully implemented quantum-resistant encryption protocols. This breakthrough ensures protection against future quantum computing threats.
+                </div>
+                <div class="card-footer">
+                    <a href="https://medium.com/@floresmateo226/my-advent-of-cyber-experience-on-tryhackme-ae83b1e269b0" target="_blank" class="read-more">Read Full Report →</a>
+                    <div class="threat-level">
+                        <div class="threat-dot active medium"></div>
+                        <div class="threat-dot active medium"></div>
+                        <div class="threat-dot active medium"></div>
+                        <div class="threat-dot"></div>
+                        <div class="threat-dot"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="card-title">Social Engineering Defense Tactics</div>
+                        <div class="card-meta">
+                            <span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="display: inline-block; vertical-align: middle; margin-right: 3px;">
+                                    <path d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"/>
+                                </svg>
+                                Nov 30, 2025
+                            </span>
+                            <span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="display: inline-block; vertical-align: middle; margin-right: 3px;">
+                                    <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                                </svg>
+                                Agent alaa
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card-badge">MEDIUM</div>
+                </div>
+                <div class="card-description">
+                    New training protocols have been developed to combat sophisticated social engineering attacks. Our simulations show a 85% improvement in threat recognition among personnel.
+                </div>
+                <div class="card-footer">
+                    <a href="https://fieldeffect.com/blog/social-engineering-attacks" target="_blank" class="read-more">Read Full Report →</a>
+                    <div class="threat-level">
+                        <div class="threat-dot active medium"></div>
+                        <div class="threat-dot active medium"></div>
+                        <div class="threat-dot active medium"></div>
+                        <div class="threat-dot"></div>
+                        <div class="threat-dot"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="card-title">the new path of cybersecurity</div>
+                        <div class="card-meta">
+                            <span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="display: inline-block; vertical-align: middle; margin-right: 3px;">
+                                    <path d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"/>
+                                </svg>
+                                Nov 29, 2025
+                            </span>
+                            <span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="display: inline-block; vertical-align: middle; margin-right: 3px;">
+                                    <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                                </svg>
+                                Agent ScarFace
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card-badge">HIGH</div>
+                </div>
+                <div class="card-description">
+                    How to start your cybersecurity journey 
+                </div>
+                <div class="card-footer">
+                    <a href="https://miro.com/app/board/uXjVJLIhF8s=/" target="_blank" class="read-more">Read Full Report →</a>
+                    <div class="threat-level">
+                        <div class="threat-dot active high"></div>
+                        <div class="threat-dot active high"></div>
+                        <div class="threat-dot active high"></div>
+                        <div class="threat-dot active high"></div>
+                        <div class="threat-dot active high"></div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-header">
+            <span class="section-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zM9 8V6c0-1.66 1.34-3 3-3s3 1.34 3 3v2H9z"/>
+                </svg>
+            </span>
+            <h2>Top Secret Intelligence</h2>
+        </div>
+
+        <div class="cards-grid">
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="card-title">Operation Doom</div>
+                        <div class="card-meta">
+                            <span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="display: inline-block; vertical-align: middle; margin-right: 3px;">
+                                    <path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zM9 8V6c0-1.66 1.34-3 3-3s3 1.34 3 3v2H9z"/>
+                                </svg>
+                                Classified
+                            </span>
+                            <span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="display: inline-block; vertical-align: middle; margin-right: 3px;">
+                                    <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/>
+                                </svg>
+                                Null
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card-badge">TOP SECRET</div>
+                </div>
+                <div class="card-description">
+                    The organization suddenly discovered that critical files across system devices were encrypted, with ransom notes found on affected machines, indicating a ransomware attack. The encryption impacted the Domain Controller, file servers, and multiple workstations simultaneously across the entire domain.
+
+                </div>
+                <div class="card-footer">
+                    <a href="https://cyberdefenders.org/blueteam-ctf-challenges/doom/" target="_blank" class="read-more">Access Classified File →</a>
+                    <div class="threat-level">
+                        <div class="threat-dot active high"></div>
+                        <div class="threat-dot active high"></div>
+                        <div class="threat-dot active high"></div>
+                        <div class="threat-dot active high"></div>
+                        <div class="threat-dot active high"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="card-title"> truth behind Ignoble Scorpius </div>
+                        <div class="card-meta">
+                            <span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="display: inline-block; vertical-align: middle; margin-right: 3px;">
+                                    <path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zM9 8V6c0-1.66 1.34-3 3-3s3 1.34 3 3v2H9z"/>
+                                </svg>
+                                Classified
+                            </span>
+                            <span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="display: inline-block; vertical-align: middle; margin-right: 3px;">
+                                    <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/>
+                                </svg>
+                                Null
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card-badge">TOP SECRET</div>
+                </div>
+                <div class="card-description">
+                    how Ignoble Scorpius re-shaped the cybersecurity industry
+                </div>
+                <div class="card-footer">
+                    <a href="https://unit42.paloaltonetworks.com/threat-assessment-blacksuit-ransomware-ignoble-scorpius/" target="_blank" class="read-more">Access Classified File →</a>
+                    <div class="threat-level">
+                        <div class="threat-dot active high"></div>
+                        <div class="threat-dot active high"></div>
+                        <div class="threat-dot active high"></div>
+                        <div class="threat-dot active high"></div>
+                        <div class="threat-dot active high"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="card-title">certification</div>
+                        <div class="card-meta">
+                            <span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="display: inline-block; vertical-align: middle; margin-right: 3px;">
+                                    <path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zM9 8V6c0-1.66 1.34-3 3-3s3 1.34 3 3v2H9z"/>
+                                </svg>
+                                Classified
+                            </span>
+                            <span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="display: inline-block; vertical-align: middle; margin-right: 3px;">
+                                    <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/>
+                                </svg>
+                                Eyes Only
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card-badge">TOP SECRET</div>
+                </div>
+                <div class="card-description">
+                    Cybersecurity certification
+                </div>
+                <div class="card-footer">
+                    <a href="https://pauljerimy.com/security-certification-roadmap/" target="_blank" class="read-more">Access Classified File →</a>
+                    <div class="threat-level">
+                        <div class="threat-dot active high"></div>
+                        <div class="threat-dot active high"></div>
+                        <div class="threat-dot active high"></div>
+                        <div class="threat-dot active high"></div>
+                        <div class="threat-dot active high"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/assets/js/dashboard.js"></script>
+</body>
+</html>
